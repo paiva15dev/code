@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/991980/b33a11afdff2ef2e1d7502b8d2df0fe9d1efd593.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/277a4379-484e-4134-82ff-b3f010141ebf/d4in5wu-cf6c4521-c65f-4cff-a5c6-cfed09d0eb8b.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.header-content {
+    padding-top: 60px; /* To prevent content from being hidden behind the fixed nav */
+}
+
+.header-content h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#heroes .heroes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.heroes-card {
+    background-color: rgba(0, 0, 12, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(6, 34, 124, 0.432);
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+    align-self: center;
+}
+
+.heroes-card:hover {
+    transform: scale(1.05);
+}
+
+.heroes-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.heroes-card h3 {
+    margin: 15px 0 5px;
+}
+
+.heroes-card p {
+    color: #ffffff;
+    margin: 0 0 15px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background-image: url('https://cdn.dribbble.com/users/759223/screenshots/2568965/dota2_400x300.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-item h3 {
+    margin-top: 0;
+}
+
+.news-item p {
+    margin-top: auto;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    color: rgb(3, 3, 3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff9900;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#news h2,
+#contact h2 {
+    color: white;
+}
