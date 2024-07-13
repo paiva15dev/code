@@ -50,7 +50,7 @@ header nav ul li a:hover {
 }
 
 .header-content {
-    padding-top: 60px; /* To prevent content from being hidden behind the fixed nav */
+    padding-top: 60px;
 }
 
 .header-content h1 {
@@ -123,14 +123,17 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Papyrus', fantasy;
 }
 
 .news-item h3 {
     margin-top: 0;
+    font-family: 'Papyrus', fantasy;
 }
 
 .news-item p {
     margin-top: auto;
+    font-family: 'Papyrus', fantasy;
 }
 
 form {
