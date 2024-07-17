@@ -1,5 +1,5 @@
 from flask import Flask
-from Models.task import Task
+from models.task import Task
 app = Flask(__name__)
 
 tasks = []
